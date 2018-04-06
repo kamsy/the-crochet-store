@@ -1,0 +1,27 @@
+{
+  "name": "the-crochet-store",
+  "version": "1.0.0",
+  "description": "jaykay designs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamsy/the-crochet-store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamsy/the-crochet-store/issues"
+  },
+  "homepage": "https://github.com/kamsy/the-crochet-store#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-webserver": "^0.9.1",
+    "jshint": "^2.9.5"
+  }
+}
