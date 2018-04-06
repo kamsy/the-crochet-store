@@ -1,0 +1,10 @@
+.row {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    img {
+        vertical-align: middle;
+        height: 250px;
+        width: 250px;
+    }
+}
