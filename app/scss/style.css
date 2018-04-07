@@ -357,6 +357,7 @@ body {
   background-position: center center;
   background-size: cover;
   height: 700px;
+  width: 100%;
 }
 
 .main .text-center {
@@ -396,46 +397,86 @@ body {
   margin-bottom: 0;
 }
 
-.row {
-  width: 700px;
+.grid {
+  margin-bottom: 50px;
+}
+
+.grid .row {
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
 }
 
-.row img {
+.grid .row img {
   vertical-align: middle;
   height: 300px;
-  width: 350px;
+  width: 50%;
 }
 
-.row .text-center {
-  width: 350px;
+.grid .row .text-center {
+  width: 50%;
   background: white;
 }
 
-.row .text-center h3 {
+.grid .row .text-center h3 {
   padding-left: 50px;
   text-align: left;
   width: 100px;
   line-height: 40px;
   font-family: "Bree Serif", Helvetica, sans-serif;
   font-size: 25px;
-  margin-top: 50px;
+  margin-top: 65px;
   margin-bottom: 10px;
 }
 
-.row .text-center P {
+.grid .row .text-center P {
   padding-left: 50px;
   text-align: left;
-  width: 300px;
-  line-height: 18px;
+  width: 90%;
+  line-height: 20px;
   font-family: "Merriweather", Helvetica, sans-serif;
 }
 
-.row .text-center a {
+.grid .row .text-center a {
   float: left;
   padding-left: 50px;
   color: #FF6100;
+  text-decoration: underline;
+  text-underline-position: under;
+  font-family: "Bree Serif", Helvetica, sans-serif;
+}
+
+.products .container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.products .container h3 {
+  font-family: "Merriweather", Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+.products .container p {
+  font-family: "Merriweather", Helvetica, sans-serif;
+  font-size: 12px;
+  color: gray;
+  width: 300px;
+  margin: 0;
+  float: left;
+}
+
+.products .container a {
+  float: left;
+  margin-left: 62%;
+  color: #FF6100;
+  text-decoration: underline;
+  text-underline-position: under;
+  font-family: "Bree Serif", Helvetica, sans-serif;
+}
+
+.products .container .row {
+  margin-top: 50px;
 }
 /*# sourceMappingURL=style.css.map */

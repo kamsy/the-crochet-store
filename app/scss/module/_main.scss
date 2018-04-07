@@ -30,5 +30,5 @@
             border-color: $orange;
         }
     }
-    @include backImg("../images/ulter-ego/ulter-ego-2.jpg", 700px);
+    @include backImg("../images/ulter-ego/ulter-ego-2.jpg", 700px, 100%);
 }
