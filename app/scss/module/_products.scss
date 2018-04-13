@@ -24,35 +24,37 @@
             font-family: $font-highlight;
         }
         .row {
-            width: 80%;
+            width: 95%;
             margin: auto;
             margin-top: 50px;
             .col-md-4:nth-child(1) {
-                height: 400px;
+                height: 450px;
                 background: $white;
-                max-width: 250px;
-                margin-right: 40px;
+                max-width: 300px;
+                margin-right: 43px;
                 padding: 0;
             }
             .col-md-4:nth-child(2) {
-                height: 400px;
+                height: 450px;
                 background: $white;
-                max-width: 250px;
-                margin-right: 40px;
+                max-width: 300px;
+                margin-right: 43px;
+                margin-left: 43px;
                 padding: 0;
             }
             .col-md-4:nth-child(3) {
-                height: 400px;
+                height: 450px;
                 background: $white;
-                max-width: 250px;
+                max-width: 300px;
+                margin-left: 43px;
                 padding: 0;
             }
             .text-center {
-                width: 250px;
+                width: 300px;
             }
             img {
-                width: 250px;
-                height: 200px;
+                width: 300px;
+                height: 300px;
             }
         }
     }
