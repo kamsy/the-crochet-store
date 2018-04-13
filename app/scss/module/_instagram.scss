@@ -1,0 +1,53 @@
+.instagram {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        padding: 0;
+        h3 {
+            font-family: $font-main;
+            font-size: 40px;
+        }
+        p {
+            font-family: $font-main;
+            font-size: 12px;
+            color: $gray;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+        .row {
+            width: 95%;
+            margin: 0 auto;
+            .col-md-3:nth-child(1) {
+                max-width: 220px;
+                padding: 0;
+                margin-right: 34px;
+            }
+            .col-md-3:nth-child(2) {
+                max-width: 220px;
+                padding: 0;
+                margin-right: 33px;
+                margin-left: 33px;
+            }
+            .col-md-3:nth-child(3) {
+                max-width: 220px;
+                padding: 0;
+                margin-right: 33px;
+                margin-left: 33px;
+            }
+            .col-md-3:nth-child(4) {
+                max-width: 220px;
+                padding: 0;
+                margin-left: 34px;
+            }
+            img {
+                width: 220px;
+                height: 200px;
+                border-radius: 5px;
+            }
+        }
+        .r2 {
+            margin-top: 30px;
+        }
+    }
+}

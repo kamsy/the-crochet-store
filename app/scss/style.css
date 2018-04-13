@@ -455,6 +455,7 @@ body {
 .products .container {
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 50px;
   padding: 0;
 }
 
@@ -567,5 +568,72 @@ body {
   border-radius: 3px;
   border-color: #FF6100;
   color: white;
+}
+
+.products hr {
+  width: 80%;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.instagram .container {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 0;
+}
+
+.instagram .container h3 {
+  font-family: "Merriweather", Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+.instagram .container p {
+  font-family: "Merriweather", Helvetica, sans-serif;
+  font-size: 12px;
+  color: gray;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.instagram .container .row {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.instagram .container .row .col-md-3:nth-child(1) {
+  max-width: 220px;
+  padding: 0;
+  margin-right: 34px;
+}
+
+.instagram .container .row .col-md-3:nth-child(2) {
+  max-width: 220px;
+  padding: 0;
+  margin-right: 33px;
+  margin-left: 33px;
+}
+
+.instagram .container .row .col-md-3:nth-child(3) {
+  max-width: 220px;
+  padding: 0;
+  margin-right: 33px;
+  margin-left: 33px;
+}
+
+.instagram .container .row .col-md-3:nth-child(4) {
+  max-width: 220px;
+  padding: 0;
+  margin-left: 34px;
+}
+
+.instagram .container .row img {
+  width: 220px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.instagram .container .r2 {
+  margin-top: 30px;
 }
 /*# sourceMappingURL=style.css.map */

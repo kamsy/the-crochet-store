@@ -2,6 +2,7 @@
     .container {
         width: 80%;
         margin: 0 auto;
+        margin-bottom: 50px;
         padding: 0;
         h3 {
             font-family: $font-main;
@@ -101,5 +102,10 @@
                 }
             }
         }
+    }
+    hr {
+        width: 80%;
+        color: $black;
+        margin-bottom: 50px;
     }
 }
