@@ -28,31 +28,40 @@
             margin: auto;
             margin-top: 50px;
             .col-md-4:nth-child(1) {
-                height: 450px;
-                background: $white;
+                height: 430px;
+                background: $whitesmoke;
                 max-width: 300px;
                 margin-right: 43px;
                 padding: 0;
+                border: 1px solid $gray2;
+                border-radius: 5px;
             }
             .col-md-4:nth-child(2) {
-                height: 450px;
-                background: $white;
+                height: 430px;
+                background: $whitesmoke;
                 max-width: 300px;
                 margin-right: 43px;
                 margin-left: 43px;
                 padding: 0;
+                border: 1px solid $gray2;
+                border-radius: 5px;
             }
             .col-md-4:nth-child(3) {
-                height: 450px;
-                background: $white;
+                height: 430px;
+                background: $whitesmoke;
                 max-width: 300px;
                 margin-left: 43px;
                 padding: 0;
+                border: 1px solid $gray2;
+                border-radius: 5px;
             }
             .text-center {
                 width: 300px;
                 img {
-                    width: 300px;
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+                    padding-top: 5px;
+                    width: 290px;
                     height: 300px;
                 }
                 h5 {
@@ -80,10 +89,14 @@
                     color: $black;
                 }
                 button {
+                    margin-left: 40px;
                     width: 120px;
                     height: 30px;
-                    line-height: 30px;
+                    font-size: 12px;
+                    line-height: 10px;
                     background: $orange;
+                    border-radius: 3px;
+                    border-color: $orange;
                     color: $white;
                 }
             }
