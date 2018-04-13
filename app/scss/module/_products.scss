@@ -24,14 +24,35 @@
             font-family: $font-highlight;
         }
         .row {
+            width: 80%;
+            margin: auto;
             margin-top: 50px;
-            .col-md-4 {
+            .col-md-4:nth-child(1) {
                 height: 400px;
                 background: $white;
-                img {
-                    width: 250px;
-                    height: 200px;
-                }
+                max-width: 250px;
+                margin-right: 40px;
+                padding: 0;
+            }
+            .col-md-4:nth-child(2) {
+                height: 400px;
+                background: $white;
+                max-width: 250px;
+                margin-right: 40px;
+                padding: 0;
+            }
+            .col-md-4:nth-child(3) {
+                height: 400px;
+                background: $white;
+                max-width: 250px;
+                padding: 0;
+            }
+            .text-center {
+                width: 250px;
+            }
+            img {
+                width: 250px;
+                height: 200px;
             }
         }
     }

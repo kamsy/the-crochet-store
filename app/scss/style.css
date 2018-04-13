@@ -402,7 +402,7 @@ body {
 }
 
 .grid .row {
-  width: 80%;
+  width: 60%;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
@@ -477,15 +477,39 @@ body {
 }
 
 .products .container .row {
+  width: 80%;
+  margin: auto;
   margin-top: 50px;
 }
 
-.products .container .row .col-md-4 {
+.products .container .row .col-md-4:nth-child(1) {
   height: 400px;
   background: white;
+  max-width: 250px;
+  margin-right: 40px;
+  padding: 0;
 }
 
-.products .container .row .col-md-4 img {
+.products .container .row .col-md-4:nth-child(2) {
+  height: 400px;
+  background: white;
+  max-width: 250px;
+  margin-right: 40px;
+  padding: 0;
+}
+
+.products .container .row .col-md-4:nth-child(3) {
+  height: 400px;
+  background: white;
+  max-width: 250px;
+  padding: 0;
+}
+
+.products .container .row .text-center {
+  width: 250px;
+}
+
+.products .container .row img {
   width: 250px;
   height: 200px;
 }
