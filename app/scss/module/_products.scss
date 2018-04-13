@@ -25,6 +25,14 @@
         }
         .row {
             margin-top: 50px;
+            .col-md-4 {
+                height: 400px;
+                background: $white;
+                img {
+                    width: 250px;
+                    height: 200px;
+                }
+            }
         }
     }
 }
