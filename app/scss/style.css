@@ -636,4 +636,64 @@ body {
 .instagram .container .r2 {
   margin-top: 30px;
 }
+
+.contact .container {
+  width: 50%;
+  margin: 0 auto 50px auto;
+}
+
+.contact .container h2 {
+  font-family: "Merriweather", Helvetica, sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.contact .container p {
+  font-family: "Merriweather", Helvetica, sans-serif;
+  font-size: 12px;
+  color: gray;
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact .container .row {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.contact .container hr {
+  width: 70%;
+}
+
+.contact .container #black {
+  color: black;
+  font-family: "Bree Serif", Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+#footer {
+  background: #FF6100;
+}
+
+#footer ul {
+  list-style: none;
+  width: 25%;
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+}
+
+#footer ul li {
+  float: left;
+  margin-left: 30px;
+}
+
+#footer .copyright {
+  width: 50%;
+}
+
+#footer .social-icon {
+  width: 25%;
+}
 /*# sourceMappingURL=style.css.map */
