@@ -11,7 +11,8 @@
         "module/_navigation.scss",
         "module/_grid.scss",
         "module/_products.scss",
-        "module/_instagram.scss"
+        "module/_instagram.scss",
+        "module/_contact.scss"
     ],
     "names": [],
     "file": "style.css"
