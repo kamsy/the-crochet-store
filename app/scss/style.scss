@@ -2,10 +2,10 @@
 @import "normalize";
 @import "mixins";
 @import "base";
-@import "module/main";
-@import "module/navigation";
-@import "module/grid";
-@import "module/products";
-@import "module/instagram";
-@import "module/contact";
-@import "module/footer";
+@import "home/main";
+@import "home/navigation";
+@import "home/grid";
+@import "home/products";
+@import "home/instagram";
+@import "home/contact";
+@import "home/footer";
