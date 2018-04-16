@@ -1,5 +1,7 @@
-#footer {
+.footer {
     background: $orange;
+    display: flex;
+    flex-direction: row;
     ul {
         list-style: none;
         width: 25%;
@@ -7,12 +9,17 @@
         line-height: 40px;
         margin: 0;
         li {
-            float: left;
             margin-left: 30px;
+            a {
+                color: $white;
+            }
         }
     }
-    .copyright {
+    .text-center {
         width: 50%;
+        .copyright {
+            color: $white;
+        }
     }
     .social-icon {
         width: 25%;
