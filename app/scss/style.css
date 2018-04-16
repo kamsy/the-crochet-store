@@ -1,4 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Merriweather|Josefin+Slab|Oswald|Bree+Serif);
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -400,6 +402,36 @@ body {
 .navbar .container {
   width: 100%;
   background: white;
+}
+
+.navbar .container .navbar-header a {
+  margin-left: 50px;
+  font-family: "Satisfy", cursive;
+  font-size: 40px;
+  color: gray;
+}
+
+.navbar .container .navbar-header a:hover {
+  color: black;
+}
+
+.navbar .container ul {
+  float: right;
+  margin-right: 100px;
+}
+
+.navbar .container ul li :hover {
+  background: white;
+}
+
+.navbar .container ul li a {
+  color: gray;
+  font-family: "Bree Serif", Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.navbar .container ul li a:hover {
+  color: black;
 }
 
 .grid {

@@ -1,6 +1,7 @@
 // Load Fonts
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Merriweather|Josefin+Slab|Oswald|Bree+Serif);
-//$offwhite: #EEE8D6;
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
 $black: black;
 $white: white;
 $darkblue: #022933;
@@ -24,3 +25,7 @@ sans-serif;
 $font-highlight: 'Bree Serif',
 Helvetica,
 sans-serif;
+$font-header: 'IBM Plex Sans Condensed',
+sans-serif;
+$font-crochet: 'Satisfy',
+cursive;
