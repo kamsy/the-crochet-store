@@ -29,19 +29,22 @@
     }
     .social-icon {
         width: 250px;
-        ul {
-            margin: auto;
-            li {
-                display: inline-block;
-                align-items: center;
-                justify-content: center;
-                list-style: none;
-                height: 40px;
-                line-height: 40px;
-                margin-left: 30px;
-                font-size: 20px;
-                a {
-                    color: $white;
+        .container {
+            width: 250px;
+            ul {
+                width: 250px;
+                li {
+                    display: inline-block;
+                    align-items: center;
+                    justify-content: center;
+                    list-style: none;
+                    height: 40px;
+                    line-height: 40px;
+                    margin-left: 30px;
+                    font-size: 20px;
+                    a {
+                        color: $white;
+                    }
                 }
             }
         }
