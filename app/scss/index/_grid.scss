@@ -45,15 +45,19 @@
 .grid2 {
     margin-bottom: 70px;
     .row {
-        width: 30%;
-        display: flex;
-        flex-wrap: wrap;
-        margin: auto;
-        margin-left: 800px;
-        img {
-            vertical-align: middle;
-            height: 200px;
-            width: 50%;
+        .col-md-6 {
+            .row2 {
+                width: 30%;
+                display: flex;
+                flex-wrap: wrap;
+                margin: auto;
+                //margin-left: 800px;
+                img {
+                    vertical-align: middle;
+                    height: 200px;
+                    width: 50%;
+                }
+            }
         }
     }
 }
