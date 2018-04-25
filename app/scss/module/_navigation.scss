@@ -19,17 +19,6 @@
                 &:hover {
                     color: $black;
                 }
-                @include break(320px) {
-                    a {
-                        margin-left: 20px;
-                        font-family: $font-crochet;
-                        font-size: 20px;
-                        color: $gray;
-                        &:hover {
-                            color: $black;
-                        }
-                    }
-                }
             }
             ul {
                 float: right;
@@ -45,6 +34,17 @@
                         &:hover {
                             color: $black;
                         }
+                    }
+                }
+            }
+            @include break(320px, 425px) {
+                a {
+                    margin-left: 20px;
+                    font-family: $font-crochet;
+                    font-size: 20px;
+                    color: $gray;
+                    &:hover {
+                        color: $black;
                     }
                 }
             }

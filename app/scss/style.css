@@ -395,6 +395,37 @@ body {
   border-color: #FF6100;
 }
 
+@media (min-width: 320px) and (max-width: 425px) {
+  .main {
+    height: 350px;
+  }
+  .main .text-center {
+    padding-top: 50px;
+  }
+  .main .text-center h3 {
+    text-align: center;
+    font-family: "Bree Serif", Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .main .text-center p {
+    text-align: center;
+    font-family: "Merriweather", Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .main .text-center button {
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    border-radius: 5px;
+    background: #FF6100;
+    border-color: #FF6100;
+  }
+}
+
 .main2 {
   margin-top: 50px;
   margin-bottom: 80px;
@@ -426,6 +457,29 @@ body {
   font-size: 25px;
   color: white;
   margin-bottom: 35px;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .main2 .text-center {
+    height: 350px;
+  }
+  .main2 .text-center .text-center {
+    padding-top: 50px;
+  }
+  .main2 .text-center .text-center h3 {
+    text-align: center;
+    font-family: "Bree Serif", Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .main2 .text-center .text-center p {
+    text-align: center;
+    font-family: "Merriweather", Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+  }
 }
 
 .main3 {
@@ -461,6 +515,29 @@ body {
   margin-bottom: 35px;
 }
 
+@media (min-width: 320px) and (max-width: 425px) {
+  .main3 .text-center {
+    height: 350px;
+  }
+  .main3 .text-center .text-center {
+    padding-top: 50px;
+  }
+  .main3 .text-center .text-center h3 {
+    text-align: center;
+    font-family: "Bree Serif", Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .main3 .text-center .text-center p {
+    text-align: center;
+    font-family: "Merriweather", Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+  }
+}
+
 .navbar {
   margin-bottom: 0;
 }
@@ -490,18 +567,6 @@ body {
   color: black;
 }
 
-@media (min-width: 320px) {
-  .navbar .container .navbar-header a a {
-    margin-left: 20px;
-    font-family: "Satisfy", cursive;
-    font-size: 20px;
-    color: gray;
-  }
-  .navbar .container .navbar-header a a:hover {
-    color: black;
-  }
-}
-
 .navbar .container .navbar-header ul {
   float: right;
   margin-right: 100px;
@@ -519,6 +584,18 @@ body {
 
 .navbar .container .navbar-header ul li a:hover {
   color: black;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .navbar .container .navbar-header a {
+    margin-left: 20px;
+    font-family: "Satisfy", cursive;
+    font-size: 20px;
+    color: gray;
+  }
+  .navbar .container .navbar-header a:hover {
+    color: black;
+  }
 }
 
 .grid {
