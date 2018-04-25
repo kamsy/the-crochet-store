@@ -108,4 +108,110 @@
         color: $black;
         margin-bottom: 50px;
     }
+    @include break(320px, 425px) {
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 50px;
+            padding: 0;
+            h3 {
+                font-family: $font-main;
+                font-size: 30px;
+            }
+            p {
+                font-family: $font-main;
+                font-size: 10px;
+                color: $gray;
+                width: 140px;
+                margin: 0;
+                float: left;
+            }
+            a {
+                float: right;
+                width: 100px;
+                margin: 0;
+                color: $orange;
+                text-decoration: underline;
+                text-underline-position: under;
+                font-family: $font-highlight;
+            }
+            .row {
+                width: 90%;
+                margin: auto;
+                margin-top: 50px;
+                .col-md-4:nth-child(1) {
+                    height: 430px;
+                    background: $whitesmoke;
+                    max-width: 270px;
+                    padding: 0;
+                    border: 1px solid $gray2;
+                    border-radius: 5px;
+                    margin: 0 auto;
+                }
+                .col-md-4:nth-child(2) {
+                    height: 430px;
+                    background: $whitesmoke;
+                    max-width: 270px;
+                    padding: 0;
+                    border: 1px solid $gray2;
+                    border-radius: 5px;
+                    margin: 0 auto;
+                }
+                .col-md-4:nth-child(3) {
+                    height: 430px;
+                    background: $whitesmoke;
+                    max-width: 270px;
+                    padding: 0;
+                    border: 1px solid $gray2;
+                    border-radius: 5px;
+                    margin: 0 auto;
+                }
+                .text-center {
+                    width: 270px;
+                    img {
+                        border-top-left-radius: 5px;
+                        border-top-right-radius: 5px;
+                        padding-top: 5px;
+                        width: 260px;
+                        height: 270px;
+                    }
+                    h5 {
+                        padding-left: 22px;
+                        text-align: left;
+                        font-family: $font-highlight;
+                        font-size: 20px;
+                        color: $black;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    }
+                    p {
+                        padding-left: 22px;
+                        font-size: 10px;
+                        text-align: left;
+                        font-family: $font-main;
+                        margin-bottom: 30px;
+                    }
+                    #money {
+                        width: 30%;
+                        padding-left: 22px;
+                        font-size: 15px;
+                        text-align: left;
+                        font-family: $font-highlight;
+                        color: $black;
+                    }
+                    button {
+                        margin-left: 40px;
+                        width: 120px;
+                        height: 30px;
+                        font-size: 12px;
+                        line-height: 10px;
+                        background: $orange;
+                        border-radius: 3px;
+                        border-color: $orange;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
 }

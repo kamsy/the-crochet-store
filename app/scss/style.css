@@ -862,6 +862,113 @@ body {
   margin-bottom: 50px;
 }
 
+@media (min-width: 320px) and (max-width: 425px) {
+  .products .container {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 0;
+  }
+  .products .container h3 {
+    font-family: "Merriweather", Helvetica, sans-serif;
+    font-size: 30px;
+  }
+  .products .container p {
+    font-family: "Merriweather", Helvetica, sans-serif;
+    font-size: 10px;
+    color: gray;
+    width: 140px;
+    margin: 0;
+    float: left;
+  }
+  .products .container a {
+    float: right;
+    width: 100px;
+    margin: 0;
+    color: #FF6100;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-family: "Bree Serif", Helvetica, sans-serif;
+  }
+  .products .container .row {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .products .container .row .col-md-4:nth-child(1) {
+    height: 430px;
+    background: #F5F5F5;
+    max-width: 270px;
+    padding: 0;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+  .products .container .row .col-md-4:nth-child(2) {
+    height: 430px;
+    background: #F5F5F5;
+    max-width: 270px;
+    padding: 0;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+  .products .container .row .col-md-4:nth-child(3) {
+    height: 430px;
+    background: #F5F5F5;
+    max-width: 270px;
+    padding: 0;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+  .products .container .row .text-center {
+    width: 270px;
+  }
+  .products .container .row .text-center img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 5px;
+    width: 260px;
+    height: 270px;
+  }
+  .products .container .row .text-center h5 {
+    padding-left: 22px;
+    text-align: left;
+    font-family: "Bree Serif", Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .products .container .row .text-center p {
+    padding-left: 22px;
+    font-size: 10px;
+    text-align: left;
+    font-family: "Merriweather", Helvetica, sans-serif;
+    margin-bottom: 30px;
+  }
+  .products .container .row .text-center #money {
+    width: 30%;
+    padding-left: 22px;
+    font-size: 15px;
+    text-align: left;
+    font-family: "Bree Serif", Helvetica, sans-serif;
+    color: black;
+  }
+  .products .container .row .text-center button {
+    margin-left: 40px;
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 10px;
+    background: #FF6100;
+    border-radius: 3px;
+    border-color: #FF6100;
+    color: white;
+  }
+}
+
 .instagram .container {
   width: 80%;
   margin: 0 auto;
