@@ -866,7 +866,7 @@ body {
   .products .container {
     width: 80%;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     padding: 0;
   }
   .products .container h3 {
@@ -896,25 +896,27 @@ body {
     margin-top: 50px;
   }
   .products .container .row .col-md-4:nth-child(1) {
-    height: 430px;
+    height: 400px;
     background: #F5F5F5;
     max-width: 270px;
     padding: 0;
     border: 1px solid #E0E0E0;
     border-radius: 5px;
     margin: 0 auto;
+    margin-bottom: 20px;
   }
   .products .container .row .col-md-4:nth-child(2) {
-    height: 430px;
+    height: 400px;
     background: #F5F5F5;
     max-width: 270px;
     padding: 0;
     border: 1px solid #E0E0E0;
     border-radius: 5px;
     margin: 0 auto;
+    margin-bottom: 20px;
   }
   .products .container .row .col-md-4:nth-child(3) {
-    height: 430px;
+    height: 400px;
     background: #F5F5F5;
     max-width: 270px;
     padding: 0;
@@ -946,26 +948,30 @@ body {
     font-size: 10px;
     text-align: left;
     font-family: "Merriweather", Helvetica, sans-serif;
-    margin-bottom: 30px;
+    margin: 0;
   }
   .products .container .row .text-center #money {
     width: 30%;
     padding-left: 22px;
-    font-size: 15px;
+    margin-bottom: 17px;
+    font-size: 14px;
     text-align: left;
     font-family: "Bree Serif", Helvetica, sans-serif;
     color: black;
   }
   .products .container .row .text-center button {
-    margin-left: 40px;
-    width: 120px;
-    height: 30px;
-    font-size: 12px;
-    line-height: 10px;
+    width: 90px;
+    height: 25px;
+    margin: 0 auto;
+    font-size: 10px;
+    line-height: 8px;
     background: #FF6100;
     border-radius: 3px;
     border-color: #FF6100;
     color: white;
+  }
+  .products hr {
+    margin-bottom: 20px;
   }
 }
 
@@ -1028,6 +1034,60 @@ body {
 
 .instagram .container .r2 {
   margin-top: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .instagram .container {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    padding: 0;
+  }
+  .instagram .container h3 {
+    font-family: "Merriweather", Helvetica, sans-serif;
+    font-size: 30px;
+  }
+  .instagram .container p {
+    font-family: "Merriweather", Helvetica, sans-serif;
+    font-size: 10px;
+    color: gray;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .instagram .container .row {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .instagram .container .row .col-md-3:nth-child(1) {
+    max-width: 200px;
+    padding: 0;
+    margin-right: 27px;
+  }
+  .instagram .container .row .col-md-3:nth-child(2) {
+    max-width: 200px;
+    padding: 0;
+    margin-right: 27px;
+    margin-left: 27px;
+  }
+  .instagram .container .row .col-md-3:nth-child(3) {
+    max-width: 200px;
+    padding: 0;
+    margin-right: 27px;
+    margin-left: 27px;
+  }
+  .instagram .container .row .col-md-3:nth-child(4) {
+    max-width: 200px;
+    padding: 0;
+    margin-left: 27px;
+  }
+  .instagram .container .row img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+  }
+  .instagram .container .r2 {
+    margin-top: 30px;
+  }
 }
 
 .contact .container {

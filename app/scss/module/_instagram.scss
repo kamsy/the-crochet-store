@@ -50,4 +50,57 @@
             margin-top: 30px;
         }
     }
+    @include break(320px, 425px) {
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 70px;
+            padding: 0;
+            h3 {
+                font-family: $font-main;
+                font-size: 30px;
+            }
+            p {
+                font-family: $font-main;
+                font-size: 10px;
+                color: $gray;
+                margin: 0;
+                margin-bottom: 20px;
+            }
+            .row {
+                width: 95%;
+                margin: 0 auto;
+                .col-md-3:nth-child(1) {
+                    max-width: 200px;
+                    padding: 0;
+                    margin-right: 27px;
+                }
+                .col-md-3:nth-child(2) {
+                    max-width: 200px;
+                    padding: 0;
+                    margin-right: 27px;
+                    margin-left: 27px;
+                }
+                .col-md-3:nth-child(3) {
+                    max-width: 200px;
+                    padding: 0;
+                    margin-right: 27px;
+                    margin-left: 27px;
+                }
+                .col-md-3:nth-child(4) {
+                    max-width: 200px;
+                    padding: 0;
+                    margin-left: 27px;
+                }
+                img {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 5px;
+                }
+            }
+            .r2 {
+                margin-top: 30px;
+            }
+        }
+    }
 }
