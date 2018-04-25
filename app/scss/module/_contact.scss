@@ -28,4 +28,40 @@
             font-size: 15px;
         }
     }
+    @include break(320px, 425px) {
+        .container {
+            width: 80%;
+            margin: 0 auto 20px auto;
+            h2 {
+                font-family: $font-main;
+                font-size: 30px;
+                text-align: center;
+            }
+            p {
+                font-family: $font-main;
+                font-size: 10px;
+                color: $gray;
+                margin: 0;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            .row {
+                width: 100%;
+                margin: 0 auto;
+                .col-md-6 {
+                    p {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            hr {
+                width: 70%;
+            }
+            #black {
+                color: $black;
+                font-family: $font-highlight;
+                font-size: 15px;
+            }
+        }
+    }
 }

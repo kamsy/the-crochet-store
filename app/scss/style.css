@@ -569,33 +569,33 @@ body {
   color: black;
 }
 
-.navbar .container .navbar-header ul {
+.navbar .container .navbar-nav {
   float: right;
   margin-right: 100px;
 }
 
-.navbar .container .navbar-header ul li :hover {
+.navbar .container .navbar-nav li :hover {
   background: white;
 }
 
-.navbar .container .navbar-header ul li a {
+.navbar .container .navbar-nav li a {
   color: gray;
   font-family: "Bree Serif", Helvetica, sans-serif;
   font-size: 15px;
 }
 
-.navbar .container .navbar-header ul li a:hover {
+.navbar .container .navbar-nav li a:hover {
   color: black;
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
-  .navbar .container .navbar-header a {
+  .navbar .container .navbar-nav a {
     margin-left: 20px;
     font-family: "Satisfy", cursive;
     font-size: 20px;
     color: gray;
   }
-  .navbar .container .navbar-header a:hover {
+  .navbar .container .navbar-nav a:hover {
     color: black;
   }
 }
@@ -1055,34 +1055,20 @@ body {
     margin-bottom: 20px;
   }
   .instagram .container .row {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
   }
   .instagram .container .row .col-md-3:nth-child(1) {
-    max-width: 200px;
+    min-width: 90px;
     padding: 0;
-    margin-right: 27px;
   }
   .instagram .container .row .col-md-3:nth-child(2) {
-    max-width: 200px;
+    min-width: 90px;
     padding: 0;
-    margin-right: 27px;
-    margin-left: 27px;
-  }
-  .instagram .container .row .col-md-3:nth-child(3) {
-    max-width: 200px;
-    padding: 0;
-    margin-right: 27px;
-    margin-left: 27px;
-  }
-  .instagram .container .row .col-md-3:nth-child(4) {
-    max-width: 200px;
-    padding: 0;
-    margin-left: 27px;
   }
   .instagram .container .row img {
-    width: 200px;
-    height: 200px;
+    width: 90px;
+    height: 90px;
     border-radius: 5px;
   }
   .instagram .container .r2 {
@@ -1123,6 +1109,41 @@ body {
   color: black;
   font-family: "Bree Serif", Helvetica, sans-serif;
   font-size: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .contact .container {
+    width: 80%;
+    margin: 0 auto 20px auto;
+  }
+  .contact .container h2 {
+    font-family: "Merriweather", Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }
+  .contact .container p {
+    font-family: "Merriweather", Helvetica, sans-serif;
+    font-size: 10px;
+    color: gray;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .contact .container .row {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .contact .container .row .col-md-6 p {
+    margin-bottom: 10px;
+  }
+  .contact .container hr {
+    width: 70%;
+  }
+  .contact .container #black {
+    color: black;
+    font-family: "Bree Serif", Helvetica, sans-serif;
+    font-size: 15px;
+  }
 }
 
 .footer {

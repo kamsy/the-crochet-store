@@ -20,20 +20,20 @@
                     color: $black;
                 }
             }
-            ul {
-                float: right;
-                margin-right: 100px;
-                li {
-                     :hover {
-                        background: $white;
-                    }
-                    a {
-                        color: $gray;
-                        font-family: $font-highlight;
-                        font-size: 15px;
-                        &:hover {
-                            color: $black;
-                        }
+        }
+        .navbar-nav {
+            float: right;
+            margin-right: 100px;
+            li {
+                 :hover {
+                    background: $white;
+                }
+                a {
+                    color: $gray;
+                    font-family: $font-highlight;
+                    font-size: 15px;
+                    &:hover {
+                        color: $black;
                     }
                 }
             }
