@@ -589,14 +589,11 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
-  .navbar .container .navbar-nav a {
+  .navbar .navbar .container .navbar-header a {
     margin-left: 20px;
     font-family: "Satisfy", cursive;
-    font-size: 20px;
+    font-size: 25px;
     color: gray;
-  }
-  .navbar .container .navbar-nav a:hover {
-    color: black;
   }
 }
 
@@ -1205,5 +1202,59 @@ body {
 
 .footer .social-icon .container ul li a {
   color: white;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .footer {
+    background: #FF6100;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .list ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .list ul li {
+    display: inline-block;
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 30px;
+  }
+  .footer .list ul li a {
+    color: white;
+  }
+  .footer .text-center {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .footer .text-center .copyright {
+    color: white;
+  }
+  .footer .social-icon {
+    width: 90%;
+  }
+  .footer .social-icon .container ul {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  .footer .social-icon .container ul li {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 30px;
+    font-size: 20px;
+  }
+  .footer .social-icon .container ul li a {
+    color: white;
+  }
 }
 /*# sourceMappingURL=style.css.map */
