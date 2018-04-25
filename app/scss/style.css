@@ -397,7 +397,14 @@ body {
 
 @media (min-width: 320px) and (max-width: 425px) {
   .main {
-    height: 350px;
+    height: 320px;
+    margin-bottom: 40px;
+    background: linear-gradient(to bottom, transparent, transparent), url("../images/ulter-ego/ulter-ego-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 270px;
+    width: 100%;
   }
   .main .text-center {
     padding-top: 70px;
@@ -416,6 +423,8 @@ body {
     font-family: "Merriweather", Helvetica, sans-serif;
     font-size: 15px;
     color: white;
+    width: 80%;
+    margin: 0 auto;
     margin-bottom: 20px;
   }
   .main .text-center button {
@@ -431,16 +440,16 @@ body {
 .main2 {
   margin-top: 50px;
   margin-bottom: 80px;
-}
-
-.main2 .text-center {
-  padding-top: 80px;
   background: linear-gradient(to bottom, transparent, transparent), url("../images/ulter-ego/ulter-ego.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 350px;
+  height: 700px;
   width: 100%;
+}
+
+.main2 .text-center {
+  padding-top: 80px;
 }
 
 .main2 .text-center h3 {
@@ -462,24 +471,35 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
+  .main2 {
+    height: 320px;
+    margin-bottom: 30px;
+    background: linear-gradient(to bottom, transparent, transparent), url("../images/ulter-ego/ulter-ego-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 270px;
+    width: 100%;
+  }
   .main2 .text-center {
-    height: 350px;
+    padding-top: 90px;
   }
-  .main2 .text-center .text-center {
-    padding-top: 50px;
-  }
-  .main2 .text-center .text-center h3 {
+  .main2 .text-center h3 {
     text-align: center;
     font-family: "Bree Serif", Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 40px;
     color: white;
+    word-spacing: 2px;
+    letter-spacing: 0px;
     margin-bottom: 10px;
   }
-  .main2 .text-center .text-center p {
+  .main2 .text-center p {
     text-align: center;
     font-family: "Merriweather", Helvetica, sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     color: white;
+    width: 80%;
+    margin: 0 auto;
     margin-bottom: 20px;
   }
 }
@@ -487,16 +507,16 @@ body {
 .main3 {
   margin-top: 50px;
   margin-bottom: 80px;
-}
-
-.main3 .text-center {
-  padding-top: 30px;
   background: linear-gradient(to bottom, transparent, transparent), url("../images/ulter-ego/ulter-ego.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 350px;
+  height: 700px;
   width: 100%;
+}
+
+.main3 .text-center {
+  padding-top: 30px;
 }
 
 .main3 .text-center h3 {
@@ -518,24 +538,35 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
+  .main3 {
+    height: 320px;
+    margin-bottom: 30px;
+    background: linear-gradient(to bottom, transparent, transparent), url("../images/ulter-ego/ulter-ego-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 270px;
+    width: 100%;
+  }
   .main3 .text-center {
-    height: 350px;
+    padding-top: 90px;
   }
-  .main3 .text-center .text-center {
-    padding-top: 30px;
-  }
-  .main3 .text-center .text-center h3 {
+  .main3 .text-center h3 {
     text-align: center;
     font-family: "Bree Serif", Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 40px;
     color: white;
+    word-spacing: 2px;
+    letter-spacing: 0px;
     margin-bottom: 10px;
   }
-  .main3 .text-center .text-center p {
+  .main3 .text-center p {
     text-align: center;
     font-family: "Merriweather", Helvetica, sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     color: white;
+    width: 80%;
+    margin: 0 auto;
     margin-bottom: 20px;
   }
 }
