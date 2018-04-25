@@ -766,6 +766,40 @@ body {
   width: 50%;
 }
 
+@media (min-width: 320px) and (max-width: 425px) {
+  .grid2 {
+    margin-bottom: 20px;
+  }
+  .grid2 .row {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .grid2 .row .col-md-6 h4 {
+    font-family: "Bree Serif", Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .grid2 .row .col-md-6 p {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-family: "Merriweather", Helvetica, sans-serif;
+    font-size: 12px;
+    color: gray;
+  }
+  .grid2 .row .col-md-6 .row2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  .grid2 .row .col-md-6 .row2 img {
+    vertical-align: middle;
+    height: 100px;
+    width: 50%;
+  }
+}
+
 .products .container {
   width: 80%;
   margin: 0 auto;
