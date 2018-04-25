@@ -352,8 +352,7 @@ body {
 }
 
 .main {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px 0;
   background: linear-gradient(to bottom, transparent, transparent), url("../images/ulter-ego/ulter-ego-2.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -398,7 +397,7 @@ body {
 @media (min-width: 320px) and (max-width: 425px) {
   .main {
     height: 320px;
-    margin-bottom: 40px;
+    margin: 45px 0 40px 0;
     background: linear-gradient(to bottom, transparent, transparent), url("../images/ulter-ego/ulter-ego-2.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -620,8 +619,19 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
+  #header .navbar .container .navbar-header button.navbar-toggle {
+    height: auto;
+    margin: 0;
+    margin-right: 10px;
+    font-family: "Satisfy", cursive;
+    font-size: 20px;
+    color: gray;
+  }
   #header .navbar .container .navbar-header a {
+    height: 20px;
+    line-height: 25px;
     margin-left: 5px;
+    padding: 10px 10px;
     font-family: "Satisfy", cursive;
     font-size: 20px;
     color: gray;

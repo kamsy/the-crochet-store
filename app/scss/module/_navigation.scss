@@ -42,8 +42,19 @@
         }
     }
     @include break(320px, 425px) {
+        .navbar .container .navbar-header button.navbar-toggle {
+            height: auto;
+            margin: 0;
+            margin-right: 10px;
+            font-family: $font-crochet;
+            font-size: 20px;
+            color: gray;
+        }
         .navbar .container .navbar-header a {
+            height: 20px;
+            line-height: 25px;
             margin-left: 5px;
+            padding: 10px 10px;
             font-family: $font-crochet;
             font-size: 20px;
             color: gray;

@@ -1,6 +1,5 @@
 .main {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px 0;
     .text-center {
         padding-top: 250px;
         h3 {
@@ -33,7 +32,7 @@
     @include backImg("../images/ulter-ego/ulter-ego-2.jpg", 700px, 100%);
     @include break(320px, 425px) {
         height: 320px;
-        margin-bottom: 40px;
+        margin: 45px 0 40px 0;
         .text-center {
             padding-top: 70px;
             h3 {
