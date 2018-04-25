@@ -43,9 +43,9 @@
     }
     @include break(320px, 425px) {
         .navbar .container .navbar-header a {
-            margin-left: 20px;
+            margin-left: 5px;
             font-family: $font-crochet;
-            font-size: 25px;
+            font-size: 20px;
             color: gray;
         }
     }

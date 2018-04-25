@@ -403,7 +403,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 270px;
+    height: 320px;
     width: 100%;
   }
   .main .text-center {
@@ -478,7 +478,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 270px;
+    height: 320px;
     width: 100%;
   }
   .main2 .text-center {
@@ -540,12 +540,12 @@ body {
 @media (min-width: 320px) and (max-width: 425px) {
   .main3 {
     height: 320px;
-    margin-bottom: 30px;
+    margin-bottom: 0;
     background: linear-gradient(to bottom, transparent, transparent), url("../images/ulter-ego/ulter-ego-2.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 270px;
+    height: 320px;
     width: 100%;
   }
   .main3 .text-center {
@@ -571,59 +571,59 @@ body {
   }
 }
 
-.navbar {
+#header .navbar {
   margin-bottom: 0;
 }
 
-.navbar .container {
+#header .navbar .container {
   width: 100%;
   background: white;
 }
 
-.navbar .container .navbar-header button {
+#header .navbar .container .navbar-header button {
   display: inline-block;
   background-color: white;
 }
 
-.navbar .container .navbar-header button .icon-bar {
+#header .navbar .container .navbar-header button .icon-bar {
   color: black;
 }
 
-.navbar .container .navbar-header a {
+#header .navbar .container .navbar-header a {
   margin-left: 50px;
   font-family: "Satisfy", cursive;
   font-size: 40px;
   color: gray;
 }
 
-.navbar .container .navbar-header a:hover {
+#header .navbar .container .navbar-header a:hover {
   color: black;
 }
 
-.navbar .container .navbar-nav {
+#header .navbar .container .navbar-nav {
   float: right;
   margin-right: 100px;
 }
 
-.navbar .container .navbar-nav li :hover {
+#header .navbar .container .navbar-nav li :hover {
   background: white;
 }
 
-.navbar .container .navbar-nav li a {
+#header .navbar .container .navbar-nav li a {
   color: gray;
   font-family: "Bree Serif", Helvetica, sans-serif;
   font-size: 15px;
 }
 
-.navbar .container .navbar-nav li a:hover {
+#header .navbar .container .navbar-nav li a:hover {
   color: black;
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
-  .navbar .navbar .container .navbar-header a {
-    margin-left: 20px;
+  #header .navbar .container .navbar-header a {
+    margin-left: 5px;
     font-family: "Satisfy", cursive;
-    font-size: 25px;
+    font-size: 20px;
     color: gray;
   }
 }
@@ -953,13 +953,13 @@ body {
     margin: 0 auto;
   }
   .products .container .row .text-center {
-    width: 270px;
+    width: 100%;
   }
   .products .container .row .text-center img {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     padding-top: 5px;
-    width: 260px;
+    width: 95%;
     height: 270px;
   }
   .products .container .row .text-center h5 {
