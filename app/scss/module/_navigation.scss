@@ -1,0 +1,53 @@
+.navbar {
+    margin-bottom: 0;
+    .container {
+        width: 100%;
+        background: $white;
+        .navbar-header {
+            button {
+                display: inline-block;
+                background-color: white;
+                .icon-bar {
+                    color: black;
+                }
+            }
+            a {
+                margin-left: 50px;
+                font-family: $font-crochet;
+                font-size: 40px;
+                color: $gray;
+                &:hover {
+                    color: $black;
+                }
+                @include break(320px) {
+                    a {
+                        margin-left: 20px;
+                        font-family: $font-crochet;
+                        font-size: 20px;
+                        color: $gray;
+                        &:hover {
+                            color: $black;
+                        }
+                    }
+                }
+            }
+            ul {
+                float: right;
+                margin-right: 100px;
+                li {
+                     :hover {
+                        background: $white;
+                    }
+                    a {
+                        color: $gray;
+                        font-family: $font-highlight;
+                        font-size: 15px;
+                        &:hover {
+                            color: $black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

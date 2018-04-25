@@ -470,6 +470,15 @@ body {
   background: white;
 }
 
+.navbar .container .navbar-header button {
+  display: inline-block;
+  background-color: white;
+}
+
+.navbar .container .navbar-header button .icon-bar {
+  color: black;
+}
+
 .navbar .container .navbar-header a {
   margin-left: 50px;
   font-family: "Satisfy", cursive;
@@ -481,22 +490,34 @@ body {
   color: black;
 }
 
-.navbar .container ul {
+@media (min-width: 320px) {
+  .navbar .container .navbar-header a a {
+    margin-left: 20px;
+    font-family: "Satisfy", cursive;
+    font-size: 20px;
+    color: gray;
+  }
+  .navbar .container .navbar-header a a:hover {
+    color: black;
+  }
+}
+
+.navbar .container .navbar-header ul {
   float: right;
   margin-right: 100px;
 }
 
-.navbar .container ul li :hover {
+.navbar .container .navbar-header ul li :hover {
   background: white;
 }
 
-.navbar .container ul li a {
+.navbar .container .navbar-header ul li a {
   color: gray;
   font-family: "Bree Serif", Helvetica, sans-serif;
   font-size: 15px;
 }
 
-.navbar .container ul li a:hover {
+.navbar .container .navbar-header ul li a:hover {
   color: black;
 }
 
