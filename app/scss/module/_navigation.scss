@@ -42,8 +42,12 @@
         }
     }
     @include break(320px, 425px) {
+        nav .navbar .navbar-fixed-top {
+            height: 40px;
+            margin: 0;
+        }
         .navbar .container .navbar-header button.navbar-toggle {
-            height: auto;
+            height: 40px;
             margin: 0;
             margin-right: 10px;
             font-family: $font-crochet;
@@ -64,6 +68,9 @@
             &:hover {
                 color: $black;
             }
+        }
+        .navbar .container .navbar-nav {
+            float: left;
         }
     }
 }

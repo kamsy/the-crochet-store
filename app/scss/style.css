@@ -619,8 +619,12 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
+  #header nav .navbar .navbar-fixed-top {
+    height: 40px;
+    margin: 0;
+  }
   #header .navbar .container .navbar-header button.navbar-toggle {
-    height: auto;
+    height: 40px;
     margin: 0;
     margin-right: 10px;
     font-family: "Satisfy", cursive;
@@ -641,6 +645,9 @@ body {
   }
   #header .navbar .container .navbar-header a:hover {
     color: black;
+  }
+  #header .navbar .container .navbar-nav {
+    float: left;
   }
 }
 
