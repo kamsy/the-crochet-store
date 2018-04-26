@@ -436,6 +436,48 @@ body {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .main {
+    height: 450px;
+    margin: 45px 0 40px 0;
+    background: linear-gradient(to bottom, transparent, transparent), url("../images/ulter-ego/ulter-ego-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+  }
+  .main .text-center {
+    padding-top: 120px;
+  }
+  .main .text-center h3 {
+    text-align: center;
+    font-family: "Bree Serif", Helvetica, sans-serif;
+    font-size: 45px;
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+  }
+  .main .text-center p {
+    text-align: center;
+    font-family: "Merriweather", Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .main .text-center button {
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    border-radius: 5px;
+    background: #FF6100;
+    border-color: #FF6100;
+  }
+}
+
 .main2 {
   margin-top: 50px;
   margin-bottom: 80px;
@@ -500,6 +542,48 @@ body {
     width: 80%;
     margin: 0 auto;
     margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .main2 {
+    height: 450px;
+    margin: 45px 0 40px 0;
+    background: linear-gradient(to bottom, transparent, transparent), url("../images/ulter-ego/ulter-ego-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+  }
+  .main2 .text-center {
+    padding-top: 120px;
+  }
+  .main2 .text-center h3 {
+    text-align: center;
+    font-family: "Bree Serif", Helvetica, sans-serif;
+    font-size: 45px;
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+  }
+  .main2 .text-center p {
+    text-align: center;
+    font-family: "Merriweather", Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .main2 .text-center button {
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    border-radius: 5px;
+    background: #FF6100;
+    border-color: #FF6100;
   }
 }
 
@@ -570,6 +654,48 @@ body {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .main3 {
+    height: 450px;
+    margin: 45px 0 40px 0;
+    background: linear-gradient(to bottom, transparent, transparent), url("../images/ulter-ego/ulter-ego-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+  }
+  .main3 .text-center {
+    padding-top: 120px;
+  }
+  .main3 .text-center h3 {
+    text-align: center;
+    font-family: "Bree Serif", Helvetica, sans-serif;
+    font-size: 45px;
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+  }
+  .main3 .text-center p {
+    text-align: center;
+    font-family: "Merriweather", Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .main3 .text-center button {
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    border-radius: 5px;
+    background: #FF6100;
+    border-color: #FF6100;
+  }
+}
+
 #header .navbar {
   margin-bottom: 0;
 }
@@ -635,13 +761,13 @@ body {
     color: black;
   }
   #header .navbar .container .navbar-header a {
-    height: 20px;
     line-height: 25px;
     margin-left: 5px;
     padding: 10px 10px;
     font-family: "Satisfy", cursive;
     font-size: 20px;
     color: gray;
+    height: 20px;
   }
   #header .navbar .container .navbar-header a:hover {
     color: black;
@@ -652,8 +778,26 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  #header .nav .navbar .navbar-fixed-top {
+    height: 45px;
+  }
+  #header .container {
+    height: 45px;
+  }
   #header .navbar .container .navbar-header button.navbar-toggle {
     display: none;
+  }
+  #header .navbar .container .navbar-header a {
+    line-height: 25px;
+    margin-left: 15px;
+    padding: 10px 10px;
+    font-family: "Satisfy", cursive;
+    font-size: 30px;
+    color: gray;
+    height: 45px;
+  }
+  #header .navbar .container .navbar-header a:hover {
+    color: black;
   }
 }
 
@@ -760,6 +904,54 @@ body {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .grid {
+    margin-bottom: 20px;
+  }
+  .grid .row {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+  }
+  .grid .row img {
+    vertical-align: middle;
+    height: 245px;
+    width: 50%;
+  }
+  .grid .row .text-center {
+    width: 50%;
+    background: white;
+  }
+  .grid .row .text-center h3 {
+    width: 100%;
+    padding-left: 30px;
+    text-align: left;
+    font-family: "Bree Serif", Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+  }
+  .grid .row .text-center p {
+    padding-left: 30px;
+    text-align: left;
+    width: 90%;
+    font-family: "Merriweather", Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .grid .row .text-center a {
+    float: left;
+    padding-left: 52px;
+    font-size: 15px;
+    color: #FF6100;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-family: "Bree Serif", Helvetica, sans-serif;
+    margin-bottom: 15px;
+  }
+}
+
 .grid2 {
   margin-bottom: 70px;
 }
@@ -826,6 +1018,52 @@ body {
     vertical-align: middle;
     height: 100px;
     width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .grid2 {
+    margin-bottom: 20px;
+  }
+  .grid2 .row {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+  }
+  .grid2 .row img {
+    vertical-align: middle;
+    height: 166px;
+    width: 50%;
+  }
+  .grid2 .row .text-center {
+    width: 50%;
+    background: white;
+  }
+  .grid2 .row .text-center h3 {
+    width: 100%;
+    padding-left: 30px;
+    text-align: left;
+    font-family: "Bree Serif", Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+  }
+  .grid2 .row .text-center p {
+    padding-left: 30px;
+    text-align: left;
+    width: 90%;
+    line-height: 15px;
+    font-family: "Merriweather", Helvetica, sans-serif;
+  }
+  .grid2 .row .text-center a {
+    float: left;
+    padding-left: 52px;
+    color: #FF6100;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-family: "Bree Serif", Helvetica, sans-serif;
+    margin-bottom: 10px;
   }
 }
 

@@ -58,13 +58,13 @@
             }
         }
         .navbar .container .navbar-header a {
-            height: 20px;
             line-height: 25px;
             margin-left: 5px;
             padding: 10px 10px;
             font-family: $font-crochet;
             font-size: 20px;
             color: gray;
+            height: 20px;
             &:hover {
                 color: $black;
             }
@@ -74,8 +74,26 @@
         }
     }
     @include break(768px, 1023px) {
+        .nav .navbar .navbar-fixed-top {
+            height: 45px;
+        }
+        .container {
+            height: 45px;
+        }
         .navbar .container .navbar-header button.navbar-toggle {
             display: none;
+        }
+        .navbar .container .navbar-header a {
+            line-height: 25px;
+            margin-left: 15px;
+            padding: 10px 10px;
+            font-family: $font-crochet;
+            font-size: 30px;
+            color: gray;
+            height: 45px;
+            &:hover {
+                color: $black;
+            }
         }
     }
 }

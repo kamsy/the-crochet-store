@@ -90,6 +90,51 @@
             }
         }
     }
+    @include break(768px, 1023px) {
+        margin-bottom: 20px;
+        .row {
+            width: 80%;
+            display: flex;
+            flex-flow: row wrap;
+            margin: auto;
+            img {
+                vertical-align: middle;
+                height: 245px;
+                width: 50%;
+            }
+            .text-center {
+                width: 50%;
+                background: $white;
+                h3 {
+                    width: 100%;
+                    padding-left: 30px;
+                    text-align: left;
+                    font-family: $font-highlight;
+                    font-size: 25px;
+                    margin-top: 10px;
+                    margin-bottom: 6px;
+                }
+                p {
+                    padding-left: 30px;
+                    text-align: left;
+                    width: 90%;
+                    font-family: $font-main;
+                    font-size: 15px;
+                    line-height: 22px;
+                }
+                a {
+                    float: left;
+                    padding-left: 52px;
+                    font-size: 15px;
+                    color: $orange;
+                    text-decoration: underline;
+                    text-underline-position: under;
+                    font-family: $font-highlight;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
 }
 
 .grid2 {
@@ -151,6 +196,49 @@
                         height: 100px;
                         width: 50%;
                     }
+                }
+            }
+        }
+    }
+    @include break(768px, 1023px) {
+        margin-bottom: 20px;
+        .row {
+            width: 80%;
+            display: flex;
+            flex-flow: row wrap;
+            margin: auto;
+            img {
+                vertical-align: middle;
+                height: 166px;
+                width: 50%;
+            }
+            .text-center {
+                width: 50%;
+                background: $white;
+                h3 {
+                    width: 100%;
+                    padding-left: 30px;
+                    text-align: left;
+                    font-family: $font-highlight;
+                    font-size: 25px;
+                    margin-top: 10px;
+                    margin-bottom: 6px;
+                }
+                p {
+                    padding-left: 30px;
+                    text-align: left;
+                    width: 90%;
+                    line-height: 15px;
+                    font-family: $font-main;
+                }
+                a {
+                    float: left;
+                    padding-left: 52px;
+                    color: $orange;
+                    text-decoration: underline;
+                    text-underline-position: under;
+                    font-family: $font-highlight;
+                    margin-bottom: 10px;
                 }
             }
         }

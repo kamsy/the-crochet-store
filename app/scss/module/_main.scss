@@ -64,6 +64,40 @@
         }
         @include backImg("../images/ulter-ego/ulter-ego-2.jpg", 320px, 100%);
     }
+    @include break(768px, 1023px) {
+        height: 450px;
+        margin: 45px 0 40px 0;
+        .text-center {
+            padding-top: 120px;
+            h3 {
+                text-align: center;
+                font-family: $font-highlight;
+                font-size: 45px;
+                color: $white;
+                word-spacing: 2px;
+                letter-spacing: 0px;
+                margin-bottom: 10px;
+            }
+            p {
+                text-align: center;
+                font-family: $font-main;
+                font-size: 20px;
+                color: $white;
+                width: 80%;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+            button {
+                height: 40px;
+                width: 140px;
+                font-size: 15px;
+                border-radius: 5px;
+                background: $orange;
+                border-color: $orange;
+            }
+        }
+        @include backImg("../images/ulter-ego/ulter-ego-2.jpg", 450px, 100%);
+    }
 }
 
 .main2 {
@@ -115,6 +149,40 @@
         }
         @include backImg("../images/ulter-ego/ulter-ego-2.jpg", 320px, 100%);
     }
+    @include break(768px, 1023px) {
+        height: 450px;
+        margin: 45px 0 40px 0;
+        .text-center {
+            padding-top: 120px;
+            h3 {
+                text-align: center;
+                font-family: $font-highlight;
+                font-size: 45px;
+                color: $white;
+                word-spacing: 2px;
+                letter-spacing: 0px;
+                margin-bottom: 10px;
+            }
+            p {
+                text-align: center;
+                font-family: $font-main;
+                font-size: 18px;
+                color: $white;
+                width: 80%;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+            button {
+                height: 40px;
+                width: 140px;
+                font-size: 15px;
+                border-radius: 5px;
+                background: $orange;
+                border-color: $orange;
+            }
+        }
+        @include backImg("../images/ulter-ego/ulter-ego-2.jpg", 450px, 100%);
+    }
 }
 
 .main3 {
@@ -165,5 +233,39 @@
             }
         }
         @include backImg("../images/ulter-ego/ulter-ego-2.jpg", 320px, 100%);
+    }
+    @include break(768px, 1023px) {
+        height: 450px;
+        margin: 45px 0 40px 0;
+        .text-center {
+            padding-top: 120px;
+            h3 {
+                text-align: center;
+                font-family: $font-highlight;
+                font-size: 45px;
+                color: $white;
+                word-spacing: 2px;
+                letter-spacing: 0px;
+                margin-bottom: 10px;
+            }
+            p {
+                text-align: center;
+                font-family: $font-main;
+                font-size: 18px;
+                color: $white;
+                width: 80%;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+            button {
+                height: 40px;
+                width: 140px;
+                font-size: 15px;
+                border-radius: 5px;
+                background: $orange;
+                border-color: $orange;
+            }
+        }
+        @include backImg("../images/ulter-ego/ulter-ego-2.jpg", 450px, 100%);
     }
 }
