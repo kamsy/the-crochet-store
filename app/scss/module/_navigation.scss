@@ -49,6 +49,9 @@
             font-family: $font-crochet;
             font-size: 20px;
             color: gray;
+            &:hover {
+                color: $black;
+            }
         }
         .navbar .container .navbar-header a {
             height: 20px;
@@ -58,6 +61,9 @@
             font-family: $font-crochet;
             font-size: 20px;
             color: gray;
+            &:hover {
+                color: $black;
+            }
         }
     }
 }

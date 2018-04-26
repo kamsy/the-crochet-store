@@ -627,6 +627,9 @@ body {
     font-size: 20px;
     color: gray;
   }
+  #header .navbar .container .navbar-header button.navbar-toggle:hover {
+    color: black;
+  }
   #header .navbar .container .navbar-header a {
     height: 20px;
     line-height: 25px;
@@ -635,6 +638,9 @@ body {
     font-family: "Satisfy", cursive;
     font-size: 20px;
     color: gray;
+  }
+  #header .navbar .container .navbar-header a:hover {
+    color: black;
   }
 }
 
