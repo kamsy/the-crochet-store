@@ -104,4 +104,62 @@
             }
         }
     }
+    @include break(768px, 1023px) {
+        background: $orange;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        .list {
+            ul {
+                width: 270px;
+                padding: 0;
+                margin: 0;
+                li {
+                    display: inline-block;
+                    list-style: none;
+                    height: 40px;
+                    line-height: 40px;
+                    margin-left: 20px;
+                    a {
+                        color: $white;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        .text-center {
+            width: 250px;
+            margin: 15px 0;
+            .copyright {
+                color: $white;
+                font-size: 14px;
+            }
+        }
+        .social-icon {
+            width: 145px;
+            .container {
+                padding: 0;
+                width: 145px;
+                ul {
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                    li {
+                        display: inline-block;
+                        align-items: center;
+                        justify-content: center;
+                        list-style: none;
+                        height: 40px;
+                        line-height: 40px;
+                        margin-left: 20px;
+                        font-size: 23px;
+                        a {
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

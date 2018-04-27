@@ -89,4 +89,23 @@
             }
         }
     }
+    @include break(768px, 1023px) {
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 70px;
+            padding: 0;
+            h3 {
+                font-family: $font-main;
+                font-size: 30px;
+            }
+            p {
+                font-family: $font-main;
+                font-size: 17px;
+                color: $gray;
+                width: 75%;
+                margin: 0 0 20px 0;
+            }
+        }
+    }
 }
